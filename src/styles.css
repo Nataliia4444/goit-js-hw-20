@@ -60,7 +60,7 @@ body {
 }
 .photo-card{
     background-color: #FFFFFF;
-    width: 350px;
+    max-width: 350px;
     max-height: 450px;
     /* padding: 25px; */
     
@@ -84,4 +84,7 @@ img {
 p,b {
     font-size: 13px;
 
+}
+.is-hiddem{
+    display: none;
 }
